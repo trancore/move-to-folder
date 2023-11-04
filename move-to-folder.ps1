@@ -2,9 +2,9 @@ Set-PSDebug -strict
 Set-Location $databaseDirectoryPath
 
 # 移動したいファイルが入ったディレクトリ
-$directoryToBeMoved = "/want-to-move-file-list"
+$directoryToBeMoved = ""
 # ファイルの区切り文字
-$delimiter = " 第"
+$delimiter = ""
 # 保管ディレクトリパス（＝カレントディレクトリ）
 $databaseDirectoryPath = $PSScriptRoot
 # 移動したいファイルが入ったディレクトリパス
